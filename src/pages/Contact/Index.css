@@ -1,0 +1,162 @@
+.navbar-container {
+  background-color: #ff74a6;
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  top: 0;
+}
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.title-contact {
+  border-radius: 15px;
+  margin-top: 190px;
+  border-color: #fe2b75;
+  font-size: 48px;
+  color: #fe2b75;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+.form {
+  background-color: #ffead4;
+  width: 850px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.input-file {
+  display: none;
+}
+
+.box-one p {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.input {
+  border-radius: 20px;
+  outline: none;
+}
+.name {
+  width: 100%;
+}
+.container-form {
+  max-width: 80%;
+  margin-top: 30px;
+}
+.box-inputs {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-top: 20px;
+}
+
+.input-personalizado {
+  padding: 10px;
+  background-color: #fe2b75;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  color: #fff;
+  font-weight: 600;
+}
+.botao-selecionar {
+  color: #fff;
+  font-size: 16px;
+}
+
+input[type="file"] {
+  display: none;
+}
+.btn-icon {
+  display: none;
+  
+}
+.anexo {
+  height: 40px;
+  width: 20px;
+}
+.anexar {
+  height: 40px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+}
+.mensage-error {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 950px) {
+  .form {
+    width: 750px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .form {
+    width: 600px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .form {
+    width: 480px;
+  }
+  .btn-icon {
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+    right: 30px;
+    background-color: #fe2b75;
+    width: 30px;
+  }
+  .anexo {
+    right: 17px;
+  }
+  .box-btn {
+    display: none;
+  }
+}
+@media screen and (max-width: 425px) {
+  .form {
+    width: 380px;
+  }
+  .btn-icon {
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+    right: 30px;
+  }
+  .box-btn {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .form {
+    width: 350px;
+  }
+  .btn-icon {
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+    right: -40px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .form {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .form {
+    width: 280px;
+  }
+}

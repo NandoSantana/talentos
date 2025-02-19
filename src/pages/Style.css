@@ -1,0 +1,497 @@
+.subtitle {
+  width: 120px;
+}
+
+.banner-service {
+  width: 100%;
+  height: 800px;
+}
+.box-img {
+  background-color: #000;
+  width: 100%;
+  height: 600px;
+  position: absolute;
+  top: 0;
+
+  z-index: -1;
+}
+
+#aoptions {
+  background-image: url("../assets/brazil.png");
+  width: 10px;
+  height: 10px;
+
+  background-color: #333;
+  width: 100;
+}
+
+.link-materia {
+  text-decoration: none;
+  color: #fe2b75;
+  font-weight: 600;
+  font-size: 20;
+}
+.mais-btn {
+  width: 336px;
+  height: 77px;
+  color: #fff;
+  background-color: #fe2b75;
+  border-radius: 13px;
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 90px;
+  border: none;
+  box-shadow: 0 7px rgba(0, 0, 0, 0.38);
+}
+.mais-btn:hover {
+  cursor: pointer;
+  box-shadow: 0 7px rgba(0, 0, 0, 0.6);
+}
+
+.container-icons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 60px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+.box-icons {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #fe2b75;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+.box-icons01 {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #25ced1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+.textBanner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 31px 30px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 38px;
+  line-height: 46px;
+
+  position: absolute;
+  width: 461px;
+  height: 46px;
+  left: 157px;
+  top: 227px;
+  font-weight: 800;
+
+  background: #25ced1;
+  color: #fff;
+}
+.form-service {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.container-form-service {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+.container-input {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.box-form-input {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.fullWidth {
+  width: 700px;
+}
+.select-form {
+  display: flex;
+  flex-direction: column;
+}
+.container-select {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  align-items: center;
+}
+.style-input {
+  height: 60px;
+}
+.box-form-inputs {
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+  justify-content: center;
+}
+.form-width {
+  width: 345px;
+}
+.fullWidthFone {
+  width: 650px;
+}
+
+.checkbox {
+  width: 500px;
+}
+.height {
+  height: 80px;
+}
+.button-submit {
+  margin-top: 100px;
+}
+.button-submit button {
+  width: 700px;
+  height: 40px;
+  color: #25ced1;
+  font-weight: 700;
+  font-size: 18px;
+  background-color: #ffffff;
+  border-radius: 13px;
+}
+
+.button-submit button:hover {
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+}
+.titleService {
+  color: #25ced1;
+  font-size: 36px;
+  text-align: center;
+}
+.container-title-service {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: 150px;
+}
+#form01 {
+  width: 60%;
+  height: 100%;
+  background-color: #25ced1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.containerCardService {
+  display: flex !important;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 66px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.cardService {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 448px;
+  height: 188px;
+  margin-top: 10px;
+  border: 14px solid #25ced1;
+  border-radius: 10px;
+}
+.textCard {
+  margin-top: 25px;
+  text-align: center;
+  font-size: 18px;
+  width: 320px;
+}
+.margimService {
+  margin-left: 10px;
+}
+.widthText {
+  width: 350px !important;
+}
+.display-section-component {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 1200px) {
+  .form-width {
+    width: 260px;
+  }
+
+  .fullWidthFone {
+    width: 480px;
+  }
+  .button-submit button {
+    width: 380px;
+  }
+  .fullWidth {
+    width: 530px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .form-width {
+    width: 245px;
+  }
+
+  .fullWidthFone {
+    width: 450px;
+  }
+  .button-submit button {
+    width: 380px;
+  }
+  .fullWidth {
+    width: 500px;
+  }
+}
+@media screen and (max-width: 990px) {
+  .button-submit button {
+    width: 380px;
+  }
+  .margimService {
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .fullWidth {
+    width: 440px;
+  }
+  .fullWidthFone {
+    width: 390px;
+  }
+  .form-width {
+    width: 440px;
+  }
+  .box-form-inputs {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 800px) {
+  .button-submit button {
+    width: 380px;
+  }
+  .textBanner {
+    left: 50px;
+    width: 300px;
+    font-size: 34px;
+  }
+  .fullWidth {
+    width: 350px;
+  }
+  .fullWidthFone {
+    width: 300px;
+  }
+  .form-width {
+    width: 350px;
+  }
+  .checkbox {
+    width: 380px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .container-select {
+    flex-direction: column;
+    width: 100%;
+    margin-left: 10px;
+  }
+  .textBanner {
+    width: 300px;
+    left: 30px;
+    font-size: 30px;
+  }
+  .titleService {
+    font-size: 34px;
+    width: 90%;
+    text-align: center;
+  }
+  .button-submit button {
+    width: 300px;
+  }
+  .select-form {
+    width: 100%;
+  }
+  #form01 {
+    width: 90%;
+  }
+  .css-1oqqzyl-MuiContainer-root {
+    padding-left: 24px;
+    padding-right: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .widthText {
+    width: 290px !important;
+    left: 20px !important;
+  }
+  .checkbox {
+    width: 80%;
+  }
+  .box-title-form {
+    width: 70%;
+  }
+  .title-form {
+    font-size: 14px !important;
+  }
+}
+@media screen and (max-width: 425px) {
+  .textBanner {
+    left: 10px;
+    width: 80%;
+    font-size: 40px;
+  }
+  .width {
+    width: 100%;
+  }
+  .button-submit button {
+    width: 290px;
+  }
+  #form01 {
+    width: 90%;
+  }
+  .cardService {
+    width: 350px;
+  }
+  .textCard {
+    width: 320px;
+    font-size: 18px;
+  }
+  .ContainerCardService {
+    justify-content: center;
+    align-items: center;
+  }
+  .widthText {
+    width: 250px !important;
+    left: 10px !important;
+  }
+  .container-title-service {
+    margin-top: 100px;
+  }
+  .fullWidth {
+    width: 300px;
+  }
+  .fullWidthFone {
+    width: 250px;
+  }
+  .form-width {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .textBanner {
+    font-size: 36px;
+    width: 220px;
+  }
+  .button-submit button {
+    width: 250px;
+  }
+  .cardService {
+    width: 300px;
+  }
+  .textCard {
+    width: 290px;
+    font-size: 16px;
+  }
+  .widthText {
+    width: 220px !important;
+  }
+  .container-title-service {
+    margin-top: 100px;
+  }
+  .fullWidth {
+    width: 280px;
+  }
+  .fullWidthFone {
+    width: 230px;
+  }
+  .form-width {
+    width: 280px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .textBanner {
+    font-size: 35px;
+    width: 200px;
+  }
+  .button-submit button {
+    width: 200px;
+  }
+  .container-form-service {
+    width: 100%;
+  }
+  #form01 {
+    width: 90%;
+  }
+
+  .cardService {
+    width: 280px;
+  }
+  .textCard {
+    width: 270px;
+    font-size: 16px;
+  }
+  .widthText {
+    width: 200px !important;
+  }
+  .container-title-service {
+    margin-top: 100px;
+  }
+  .fullWidth {
+    width: 250px;
+  }
+  .fullWidthFone {
+    width: 200px;
+  }
+  .form-width {
+    width: 250px;
+  }
+  .title-form {
+    font-size: 12px !important;
+  }
+}
+@media screen and (max-width: 300px) {
+  .cardService {
+    width: 240px;
+  }
+  .textCard {
+    width: 230px;
+    font-size: 14px;
+  }
+  .fullWidth {
+    width: 230px;
+  }
+  .fullWidthFone {
+    width: 180px;
+  }
+  .form-width {
+    width: 230px;
+  }
+}

@@ -1,0 +1,135 @@
+.carousel-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+.circle {
+  width: 119px;
+  height: 119px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 1px solid #4fb0c0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.paper {
+  width: 900px;
+  height: 600px;
+  background-color: #fff;
+}
+.paper h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #fe2bf5;
+  text-align: center;
+}
+.container-hora {
+  width: 200px;
+  height: 40px;
+  border: 2px solid #7e827a;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.36));
+  border-radius: 11px;
+  background-color: #fff;
+  color: #fe2bf5;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-hora p {
+  text-align: center;
+}
+.container-paper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-confirmar {
+  width: 200px;
+  height: 40px;
+  background-color: #fe2b75;
+  color: #fff;
+  box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.38);
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+.calendar {
+  margin-left: 50px;
+}
+.sdp {
+  --theme-color: #fe2b75 !important ; /* cor violeta */
+}
+
+@media screen and (max-width: 950px) {
+  .paper {
+    width: 800px;
+    height: 600px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .paper {
+    width: 680px;
+    height: 500px;
+  }
+  .paper h2 {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .paper {
+    width: 580px;
+    height: 600px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .paper {
+    width: 480px;
+  }
+  .container-paper {
+    flex-direction: column;
+  }
+  .calendar {
+    display: none;
+  }
+}
+@media screen and (max-width: 425px) {
+  .paper {
+    width: 300px;
+    height: 500px;
+  }
+  .container-paper {
+    flex-direction: column;
+  }
+  .paper h2 {
+    font-size: 16px;
+  }
+
+  .paper {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .paper {
+    width: 300px;
+    height: 500px;
+  }
+  .paper h2 {
+    font-size: 20px;
+  }
+  .container-paper {
+    flex-direction: column;
+  }
+}

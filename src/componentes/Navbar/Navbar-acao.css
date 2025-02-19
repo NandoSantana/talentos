@@ -1,0 +1,126 @@
+.menu {
+  position: absolute;
+  top: 0;
+}
+.container {
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  transition: all ease 1s;
+  z-index: 9;
+}
+.container-menu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.logo {
+  width: 55px;
+  height: 55px;
+  margin-top: 8px;
+  transition: all ease 1s;
+}
+.ativaCor {
+  width: 100%;
+  height: 70px;
+  background-color: #25CED1;
+  transition: all ease 1s;
+}
+.ativaCor .logo {
+  width: 60px;
+  height: 60px;
+  transition: all ease 1s;
+}
+.drawer {
+  display: none;
+  position: absolute;
+  right: 0;
+  color: #fff;
+}
+
+.containerLogo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.nav-link {
+  color: #fff;
+  font-size: 22px;
+  margin-right: 20px;
+  text-decoration: none;
+  font-weight: 700;
+  text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.43);
+}
+.nav-link:active {
+  width: 50px;
+  border-bottom: 6px solid #fff;
+}
+.nav-link:hover {
+}
+.menu-lateral {
+  height: 100vh;
+  width: 250px;
+  background-color: #25CED1;
+}
+.link-lateral {
+  text-decoration: none;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+}
+.link-lateral:hover {
+  border-bottom: 5px solid #fff;
+}
+.box-lateral {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.submenu {
+  position: relative;
+}
+.submenu nav {
+  display: none;
+}
+.submenu:hover nav {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 170px;
+  position: absolute;
+  right: -40px;
+}
+.submenu nav .nav-link {
+  font-size: 16px;
+  text-align: center;
+  color: black;
+  padding: 5px;
+}
+.submenu nav .nav-link:hover {
+  border-bottom: 6px solid #ff74a6 !important;
+  width: 95%;
+  text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+.box-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+@media only screen and (max-width: 900px) {
+  .drawer {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container-menu {
+    display: none;
+  }
+}
+@media screen and (max-width: 350px) {
+}

@@ -1,0 +1,93 @@
+input[type="file"] {
+  display: none;
+}
+.custom-file-upload {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.input-file {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #a4a4a4;
+  width: 100%;
+  height: 60px;
+  padding-left: 5px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.container-input-file {
+  width: 100%;
+  position: relative;
+  margin-top: 10px;
+}
+.container-input-file span {
+  font-size: 14px;
+  color: #848484;
+  position: absolute;
+  top: -10px;
+  left: 10px;
+}
+.input-personalizado {
+  padding: 10px;
+  background-color: #fe2b75;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  color: #fff;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+}
+.icone-box {
+  padding: 10px;
+  background-color: #fe2b75;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  color: #fff;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+}
+.icone-input {
+  margin-right: 10px;
+}
+.icone-box {
+  display: none;
+}
+input[type="file"] {
+  display: none;
+}
+.file-preview-form p {
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+@media screen and (max-width: 320px) {
+  .icone-box {
+    display: flex;
+  }
+  .box-input-file {
+    display: none;
+  }
+
+  .file-preview p {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 20ch;
+    font-size: 12px;
+  }
+
+  .icone-input {
+    margin-right: 0;
+  }
+}
