@@ -1,8 +1,5 @@
 # Links
 
-Figma: https://www.figma.com/file/zG4EbkhgU0YTD6jH0xLu08/GIS?node-id=2%3A2
-Repositorio: https://gitlab.com/gestaointeligente/GIS.Site.GIS
-
 
 # Getting Started with Create React App
 
